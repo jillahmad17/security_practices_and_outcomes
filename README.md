@@ -21,11 +21,11 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 
 ```
 .
+├── analysis/                        # scripts for analysis (fluctuation table and skewness, cofluctuation matrix, PPML-TWFE models) 
 ├── formatting_version_data/         # script for version-level formatting and cleanup
 ├── local_checks/                    # local computation of Scorecard checks using --commit flag
 ├── merging_data/                    # scripts for joining data sources
 ├── replicated_metrics/              # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
-├── rq1/                             # analysis for RQ1 (PPML-TWFE models)
 ├── time_varying_covariates/         # construction of time-varying covariates for the panel
 │
 ├── github_repositories_unique.csv         # deduplicated list of GitHub repos in the sample
@@ -35,12 +35,7 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 └── .gitignore
 ```
 
-## Notes for future organization
 
-- [ ] Add a top-level `data/` vs `analysis/` split if folder count keeps growing
-- [ ] Consolidate `local_metrics/` and `replicated_metrics/` if overlap becomes redundant
-- [ ] Document what's in `old/` before deciding whether to delete or archive it
-- [ ] Rename notebooks with clearer, non-truncated names
 
 ## Reproducing the analysis
 
