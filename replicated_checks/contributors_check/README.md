@@ -38,7 +38,6 @@ Options:
 
 - `--repo` - The url of the project's github repository
 - `--commit` - the commit hash on which you want to run the check
-- `--commit-date` - the date of the commit in ISO 8601 date and time format (YYYY-MM-DDT%HH:%MM:%SSZ)
 - `--checks` - the check you wish to run 
 - `--format` - the desired format of the output (text, json)
 
