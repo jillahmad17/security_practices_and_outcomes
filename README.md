@@ -27,10 +27,7 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 ├── merging_data/                    # scripts for joining data sources
 ├── replicated_metrics/              # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
 ├── time_varying_covariates/         # construction of time-varying covariates for the panel
-│
-├── github_repositories_unique.csv         # deduplicated list of GitHub repos in the sample
 ├── inclusion_exclusion_criteria.ipynb     # notebook defining sample inclusion/exclusion logic
-├── longitudinal_study_package_criteria_octo....ipynb   # package-level criteria for the longitudinal panel
 ├── release_history.ipynb                  # release history via GitHub REST API
 └── .gitignore
 ```
