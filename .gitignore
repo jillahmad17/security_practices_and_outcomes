@@ -29,3 +29,4 @@ control_variables/issues_opened/bq_release_data_by_ID.csv
 control_variables/issues_opened/bq_issue_data_by_ID.csv
 previous_release_histories/
 *.csv
+inclusion_exclusion_criteria.ipynb
