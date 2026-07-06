@@ -9,9 +9,6 @@ This is a  version of OpenSSF Scorecard that contains modifications to the depen
 
 * A valid Github personal access token
 
-## Input
-
-%Y-%m-%dT%H:%M:%SZ
 
 
 ## Usage
