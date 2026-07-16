@@ -10,8 +10,8 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 ## Getting started
 
 ### Prerequisites
-- Python 3.x (pandas, re) — used for panel construction
-- R (≥ 4.x) with `fixest`, `dplyr`, `ggplot2`, `reshape2` and related packages — used for estimation
+- Python 3.12 with packages pandas, re, numpy
+- R (≥ 4.x) with `fixest`, `dplyr`, `ggplot2`, `reshape2`, `moments`, `tidyr`, `lubridate`
 - Jupyter (for the `.ipynb` notebooks)
 - replicated_checks/ each have their own requirements, listed either in requirements.txt or ReadMe
 
@@ -23,7 +23,8 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 ├── analysis/                        # scripts for analysis (fluctuation table and skewness, cofluctuation matrix, PPML-TWFE models) 
 ├── formatting_version_data/         # script for version-level formatting
 ├── local_checks/                    # local computation of Scorecard checks using --commit flag
-├── replicated_metrics/              # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
-├── merging_data/                    # scripts for joining data sources
+├── replicated_checks/               # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
+├── scorecard_checks/                # scripts for running Scorecard locally, providing the commit sha
+├── code_review_analysis/            # comparison of Code-Review scores before and after scores transition from 0 to >0  
 └── .gitignore
 ```
