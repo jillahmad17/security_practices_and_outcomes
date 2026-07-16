@@ -10,32 +10,20 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 ## Getting started
 
 ### Prerequisites
-- Python 3.x (pandas, etc.) — used for panel construction
-- R (≥ 4.x) with `fixest`, `dplyr`, and related packages — used for estimation
+- Python 3.x (pandas, re) — used for panel construction
+- R (≥ 4.x) with `fixest`, `dplyr`, `ggplot2`, `reshape2` and related packages — used for estimation
 - Jupyter (for the `.ipynb` notebooks)
-- *(Add specific version numbers / package lists as they stabilize, e.g. via `requirements.txt` and `renv.lock`)*
+- replicated_checks/ each have their own requirements, listed either in requirements.txt or ReadMe
 
-*(Update once you've settled on dependency management — e.g. `requirements.txt`/`renv.lock` vs. a conda env file.)*
 
 ## Repository structure
 
 ```
 .
 ├── analysis/                        # scripts for analysis (fluctuation table and skewness, cofluctuation matrix, PPML-TWFE models) 
-├── formatting_version_data/         # script for version-level formatting and cleanup
+├── formatting_version_data/         # script for version-level formatting
 ├── local_checks/                    # local computation of Scorecard checks using --commit flag
-├── merging_data/                    # scripts for joining data sources
 ├── replicated_metrics/              # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
-├── time_varying_covariates/         # construction of time-varying covariates for the panel
-├── inclusion_exclusion_criteria.ipynb     # notebook defining sample inclusion/exclusion logic
-├── release_history.ipynb                  # release history via GitHub REST API
+├── merging_data/                    # scripts for joining data sources
 └── .gitignore
 ```
-
-
-
-## Reproducing the analysis
-
-*(Add setup/run instructions here once the pipeline stabilizes.)*
-
-
