@@ -24,7 +24,7 @@ This repository supports a project examining whether OpenSSF Scorecard checks ar
 ├── data/                            # the data files are hosted on Zenodo due to size constraints
 ├── replicated_checks/               # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
 ├── scorecard_checks/                # scripts for running Scorecard locally, providing the commit sha
-├── LICENSE                          # scripts for replicating Fuzzing, Maintained, Dependency-Update-Tool, and Contributors checks 
+├── LICENSE                          
 └── README.md
 
 ```
