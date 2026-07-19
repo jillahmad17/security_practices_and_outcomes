@@ -4,8 +4,7 @@ The datasets used in this study are archived on Zenodo (anonymized for double-bl
 
 **Zenodo DOI:** `[ANONYMIZED_ZENODO_DOI_HERE]`
 
-Data files are not included in this repository due to size constraints. This README describes the schema and structure of the archived datasets.
-
+Data files are not included in this repository due to size constraints.
 ## Overview
 
 This study uses release-level panel datasets constructed from npm and PyPI package repositories, combining OpenSSF Scorecard security practice scores, time-varying covariates, and security outcome measures.
