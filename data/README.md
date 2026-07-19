@@ -8,7 +8,7 @@ Data files are not included in this repository due to size constraints. This REA
 
 ## Overview
 
-This study uses two release-level panel datasets constructed from npm and PyPI package repositories, combining OpenSSF Scorecard security practice scores with vulnerability outcome measures.
+This study uses release-level panel datasets constructed from npm and PyPI package repositories, combining OpenSSF Scorecard security practice scores, time-varying covariates, and security outcome measures.
 
 
 ## File structure
