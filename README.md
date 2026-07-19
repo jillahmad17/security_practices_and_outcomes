@@ -1,11 +1,9 @@
 # Security Practices and Vulnerability Outcomes
 
-> **Note:** This repo's organization is still in progress and will be restructured — treat this README as a living document, not a final map.
-
 Empirical analysis of whether OpenSSF Scorecard security practices are associated with security outcomes (vulnerability count, MTTU) across npm and PyPI packages.
 
 ## Overview
-This repository supports a project examining whether OpenSSF Scorecard checks are associated with vulnerability counts and Mean Time to Update (MTTU) across ~15,000 npm and PyPI packages, using PPML two-way fixed effects models (`fixest::fepois()`).
+This repository supports a project examining whether OpenSSF Scorecard checks are associated with vulnerability counts and Mean Time to Update (MTTU) using PPML two-way fixed effects models (`fixest::fepois()`).
 
 ## Getting started
 
