@@ -21,7 +21,7 @@ This study uses two release-level panel datasets constructed from npm and PyPI p
 ```
 data/
 ├── monthly_panel_vuln.csv           # monthly package release level data, including Scorecard checks, time-varying covariates, and Vulnerability Count
-├── mttu_panel.csv                   # monthly package release level data, including Scorecard checks, time-varying covariates, and MTTU
+├── mttu_panel_mttu.csv                   # monthly package release level data, including Scorecard checks, time-varying covariates, and MTTU
 ├── sc_data.csv.zip                  # raw MTTR dataset, including Scorecard checks, time-varying covariates, and Vulnerability Count
 ├── sc_data_mttu_subset.csv.zip      # raw MTTR dataset, including Scorecard checks, time-varying covariates, and MTTU
 └── README.md
